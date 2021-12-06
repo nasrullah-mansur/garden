@@ -1,0 +1,25 @@
+ 
+// variable
+@import "variable/_variable.scss";
+
+// mixin
+@import "mixin/_mixin.scss";
+
+// body reset content
+@import "reset/_predefine.scss";
+
+// component content
+@import "section/header/header";
+@import "section/footer/footer";
+@import "section/banner/banner";
+@import "section/services/services";
+@import "section/counter/counter";
+@import "section/latestWork/latestWork";
+@import "section/testimonial/testimonial";
+
+// Pages;
+@import "pages/index/index";
+@import "pages/cleaning/cleaning";
+@import "pages/contact/contact";
+@import "pages/landscape/landscape";
+@import "pages/pastecontroll/pastecontroll";

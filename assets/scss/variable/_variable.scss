@@ -1,0 +1,31 @@
+@font-face {
+    font-family: 'altero';
+    src: url(../fonts/altero.ttf);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Arimo:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;600;700&display=swap');
+
+// Color;
+$primary-color: #8acd26;
+$hover-color : #8acd26;
+$bColor: #003016;
+$white : #ffffff;
+$black : #000000;
+$bgOne: #FAFAFA;
+$bgTwo: #F7F7F7;
+$border-color: #DADADA;
+
+$c-1: #f5e933;
+$c-2: #79ce33;
+$c-3: #023016;
+
+// Body;
+$bodyFont: 'Roboto', sans-serif;
+$alteroFont: 'altero', sans-serif;
+$titleFont: 'Roboto', sans-serif;
+$bfSize: 16px;
+$bLineHeight: 26px;
+$fontWeight: 400;
+$transition: all .4s linear;

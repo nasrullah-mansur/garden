@@ -1,0 +1,259 @@
+
+.land-banner-items {
+    margin-top: -50px;
+
+    .container {
+        display: flex;
+        justify-content: flex-end;
+
+        @media (max-width: 767.98px) {
+            width: 100%;
+         }
+    }
+
+    .land-banner-item {
+        position: relative;
+        z-index: 1;
+        display: flex;
+
+        @media (max-width: 767.98px) {
+           flex-direction: column;
+           width: 100%;
+        }
+
+        &::after {
+            content: '';
+            width: calc(100% + 500px);
+            height: 100%;
+            background-color: $white;
+            box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
+            position: absolute;
+            left: 0;
+            top: 0;
+            z-index: -1;
+
+            @media (max-width: 767.98px) {
+                width: 100%;
+             }
+        }
+
+        a {
+            display: block;
+            line-height: 100px;
+            font-size: 24px;
+            text-transform: uppercase;
+            padding: 0 30px;
+            color: $bColor;
+            border-bottom: 5px solid transparent;
+            transition: $transition;
+            font-family: $alteroFont;
+
+            &.active,
+            &:hover {
+                border-color: #f6eb31;
+            }
+
+            @media (max-width: 991.98px) {
+                font-size: 20px;
+                text-align: center;
+                line-height: 80px;;
+            }
+
+            
+        }
+    }
+}
+
+.cleaning {
+    padding-top: 120px;
+}
+
+.cleaning .cleaning-text h2 {
+    font-size: 48px;
+    font-weight: 600;
+    font-family: "altero", sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 35px;
+    position: relative;
+    display: inline-block;
+    padding-bottom: 30px;
+}
+
+.cleaning .cleaning-text h2::after {
+    position: absolute;
+    content: '';
+    left: 22%;
+    top: 100%;
+    width: 50%;
+    background-color: #78CE33;
+    height: 5px;
+    transition: all linear .3s;
+    border-radius: 3px;
+}
+
+
+.cleaning .garden-maintain-text {
+    background-color: #78CE33;
+    padding: 30px 30px 80px 30px;
+    color: #fff;
+    margin-top: -211px;
+    position: relative;
+    z-index: 999;
+
+    @media (max-width: 991.98px) {
+        margin-top: 30px;
+    }
+}
+
+.cleaning .garden-maintain-text h4 {
+    font-size: 30px;
+    text-transform: uppercase;
+}
+.cleaning .garden-maintain-text ul {
+    margin-top: 50px;
+}
+.cleaning .garden-maintain-text li {
+    margin-top: 20px;
+}
+
+.cleaning .cleaning-slide {
+    .slick-dots {
+        display: flex;
+        justify-content: center;
+
+        li {
+            button {
+                background-color: #003016;
+                border: 0;
+                color: $white;
+                margin: 0 4px;
+                width: 35px;
+                height: 35px;
+            }
+
+            &.slick-active {
+                button {
+                    background-color: #79ce33;
+                }
+            }
+        }
+    }
+}
+
+.cleaning .garden-maintain-text {
+
+}
+
+.cleaning .garden-maintain-text .garden-management {
+    font-size: 18px;
+    text-transform: capitalize;
+    padding-top: 10px;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+
+.cleaning .number span {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    background-color: #78CE33;
+    color: #fff;
+    display: inline-block;
+    margin-top: 30px;
+    margin-left: 10px;
+}
+
+.work .left-text {
+    background-color: #354436;
+    color: #fff;
+    padding: 30px;
+    margin-top: 150px;
+    margin-left: 65px;
+    font-weight: normal;
+
+    @media (max-width: 991.98px) {
+        padding: 30px;
+        margin: 50px 15px;
+    }
+}
+
+
+.work .right-text h3 {
+    font-size: 48px;
+    font-weight: 600;
+    font-family: "altero", sans-serif;
+    text-transform: uppercase;
+    position: relative;
+    display: inline-block;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    padding-bottom: 30px;
+}
+
+.work .right-text h3::after {
+    position: absolute;
+    content: '';
+    left: 22%;
+    top: 100%;
+    width: 50%;
+    background-color: #78CE33;
+    height: 5px;
+    transition: all linear .3s;
+    border-radius: 3px;
+}
+
+.work .read-more button {
+    background-color: #668600;
+    padding: 15px 45px;
+    border-radius: 30px;
+    color: #fff;
+    margin-top: 50px;
+}
+
+@media (max-width: 991.98px) {
+    .work .img {
+        padding: 0 15px;
+
+        img {
+            width: 100%;
+        }
+
+    }
+    
+    .read-more {
+        text-align: center;
+    }
+    
+}
+
+.gallary h3 {
+    font-size: 48px;
+    font-weight: 600;
+    font-family: "altero", sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 75px;
+    position: relative;
+    display: inline-block;
+    padding-bottom: 30px;
+}
+
+.gallary h3::after {
+    position: absolute;
+    content: '';
+    left: 22%;
+    top: 100%;
+    width: 50%;
+    background-color: #78CE33;
+    height: 5px;
+    transition: all linear .3s;
+    border-radius: 3px;
+}
+
+.gallary .view-more button {
+    background-color: #668600;
+    padding: 15px 45px;
+    border-radius: 30px;
+    color: #fff;
+    margin-top: 50px;
+}

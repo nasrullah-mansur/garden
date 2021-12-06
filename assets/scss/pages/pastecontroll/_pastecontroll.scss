@@ -1,0 +1,205 @@
+.pastecontroll {
+    padding-top: 120px;
+}
+
+.pastecontroll .pastecontroll-text h2 {
+    font-size: 48px;
+    font-weight: 600;
+    font-family: "altero", sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 35px;
+    position: relative;
+    display: inline-block;
+    padding-bottom: 30px;
+}
+
+.pastecontroll .pastecontroll-text h2::after {
+    position: absolute;
+    content: '';
+    left: 22%;
+    top: 100%;
+    width: 50%;
+    background-color: #78CE33;
+    height: 5px;
+    transition: all linear .3s;
+    border-radius: 3px;
+}
+
+
+.pastecontroll .garden-maintain-text {
+    background-color: #78CE33;
+    padding: 30px;
+    color: #fff;
+    margin-top: -211px;
+
+    @media (max-width: 1299.98px) {
+        margin-top: -40px;
+    }
+
+    @media (max-width: 991.98px) {
+        margin-top: 30px;
+    }
+}
+
+.pastecontroll .garden-maintain-text h4 {
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.pastecontroll .garden-maintain-text .garden-management {
+    font-size: 18px;
+    text-transform: capitalize;
+}
+
+.casual .left-img img {
+    width: 100px;
+    margin-left: 100px;
+    transform: rotate(-38deg);
+}
+
+.common-pest h3 {
+    font-size: 48px;
+    font-weight: 600;
+    font-family: "altero",
+    sans-serif;
+    text-transform: uppercase;
+    position: relative;
+    display: inline-block;
+    padding-bottom: 30px;
+}
+.common-pest h3::after {
+    position: absolute;
+    content: '';
+    left: 22%;
+    top: 100%;
+    width: 50%;
+    background-color: #78CE33;
+    height: 5px;
+    transition: all linear .3s;
+    border-radius: 3px;
+}
+
+.common-pest {
+    position: relative;
+
+    .icons {
+        display: flex;
+
+        @media (max-width: 991.98px) {
+            flex-wrap: wrap;
+        }
+
+        a {
+            display: flex;
+            width: calc(25% - 30px);
+            margin: 0 15px;
+            height: 200px;
+            justify-content: center;
+            align-items: center;
+            box-shadow: 0 0 15px #ddd;
+            transition: $transition;
+            margin-bottom: 30px;
+
+            @media (max-width: 767.98px) {
+                height: 140px;
+            }
+           
+            h4 {
+                color: #003117;
+                font-size: 18px;
+                margin-top: 10px;
+                font-weight: 500;
+            }
+
+            @media (max-width: 991.98px) {
+                width: calc((100% / 3) - 30px);
+            }
+
+            @media (max-width: 575px) {
+                width: 100%;
+            }
+
+            &.active,
+            &:hover {
+                background-color: #f4c400;
+                box-shadow: 0 0 15px #f4c400;
+
+                h4 {
+                    color: $white;
+                }
+            }
+
+            img {
+                height: 65px;
+
+                @media (max-width: 767.98px) {
+                    width: 60px;
+                }
+            }
+
+            
+        }
+    }
+
+    .img {
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+}
+
+
+.common-pest .box span.outer {
+    width: 300px;
+    height: 200px;
+    line-height: 200px;
+    text-align: center;
+    background-color: #303E36;
+    display: inline-block;
+    position: absolute;
+    left: -70px;
+    bottom: 80px;
+    color: #fff;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+.common-pest .box .inner {
+    margin-left: 15px;
+}
+.common-pest .common-pest-text p, li {
+    font-size: 18px;
+    line-height: 28px;
+    margin-top: 10px;
+    list-style: none;
+}
+
+.common-pest .common-pest-text li {
+    position: relative;
+    padding-left: 20px;
+    margin-top: 0;
+
+    &::before {
+        content: '';
+        width: 10px;
+        height: 10px;
+        background-color: #f7e829;
+        position: absolute;
+        top: 9px;
+        left: 0;
+        border-radius: 50%;
+    }
+}
+
+.common-pest .next a {
+    background-color: #f4c400;
+    box-shadow: 0 0 15px #f4c400;
+    width: 160px;
+    height: 50px;
+    line-height: 36px;
+    font-weight: 600;
+    border-radius: 30px;
+    color: #fff;
+}

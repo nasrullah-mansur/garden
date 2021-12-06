@@ -1,0 +1,237 @@
+
+.landscaping {
+    padding-top: 120px;
+
+    .landscaping-text {
+        h2 {
+            font-size: 48px;
+            font-weight: 600;
+            font-family: "altero", sans-serif;
+            text-transform: uppercase;
+            position: relative;
+            display: inline-block;
+            padding-bottom: 30px;
+            margin-bottom: 50px;
+    
+            &::after {
+                position: absolute;
+                content: '';
+                left: 22%;
+                top: 100%;
+                width: 50%;
+                background-color: #78CE33;
+                height: 5px;
+                -webkit-transition: all linear .3s;
+                transition: all linear .3s;
+            }
+        }
+
+        span {
+            display: block;
+            text-align: center;
+            line-height: 70px;
+            width: 70px;
+            height: 70px;
+            font-size: 36px;
+            background-color: #303E36;
+            color: #fff;
+            position: absolute;
+            right: -13px;
+            bottom: 211px;
+            font-family: $alteroFont;
+
+            @media (max-width: 1400px) {
+                bottom: 138px;
+            }
+
+            @media (max-width: 1200px) {
+                bottom: 66px;
+            }
+
+            @media (max-width: 991.98px) {
+                display: none;
+            }
+        }
+    }
+}
+
+.landscaping  {
+
+    .garden-maintain-text {
+        background-color: #78CE33;
+        padding: 30px;
+        color: #fff;
+        margin-top: -211px;
+    
+        @media (max-width: 1399.98px) {
+            margin-top: -139px !important;
+        }
+    
+        @media (max-width: 1199.98px) {
+            margin-top: -66px !important;
+        }
+    }
+}
+
+
+.landscaping .garden-maintain-text h4 {
+    font-size: 30px;     
+    text-transform: uppercase;
+}
+
+.landscaping {
+    ul {
+        li {
+            padding-left: 25px;
+            position: relative;
+
+            &::before {
+                content: '';
+                width: 10px;
+                height: 10px;
+                border-radius: 50%;
+                background-color: #fee531;
+                position: absolute;
+                top: 10px;
+                left: 0;
+            }
+        }
+    }
+}
+
+.landscaping .garden-maintain-text .garden-management {
+    font-size: 18px;    
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+.casual .left-img img {
+    width: 100px;
+    margin-left: 100px;
+    transform: rotate(-38deg);
+}
+
+.casual {
+    background-image: url('/assets/images/blur-leaf.png');
+    background-position: right;
+    background-repeat: no-repeat;  
+    background-size: contain;  
+}
+
+.casual .number {
+    position: relative;
+    margin-top: 79px;
+}
+.casual span {
+    display: block;
+    text-align: center;
+    line-height: 70px;
+    width: 70px;
+    height: 70px;
+    font-size: 36px;
+    background-color: #303E36;
+    color: #fff;
+    position: absolute;
+    top: 0;
+    left: 99%;
+    transform: translate(-54%, -50%);
+}
+
+.garden-casual-text {
+     background-color: #78CE33;
+     padding: 30px;
+     color: #fff;
+     margin-top: -176px;
+}
+.garden-casual-text h4 {
+     font-size: 30px;
+     text-transform: uppercase;
+     margin-bottom: 75px;
+}
+
+.renovation .number {
+    position: relative;
+    margin-top: 299px;
+}
+
+.renovation span {
+    display: block;
+    text-align: center;
+    line-height: 70px;
+    width: 70px;
+    height: 70px;
+    font-size: 36px;
+    background-color: #303E36;
+    color: #fff;
+    position: absolute;
+    top: 0;
+    left: 99%;
+    transform: translate(-54%, -50%);
+}
+
+.garden-renovation-text {
+    background-color: #78CE33;
+    padding: 30px;
+    color: #fff;
+    margin-top: -176px;
+}
+
+.garden-renovation-text h4 {
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-bottom: 75px;
+}
+
+.design {
+    position: relative;
+    img {
+        &:first-child {
+            width: 50px;
+            filter: grayscale(52%);
+            position: absolute;
+            left: 0;
+            top: 50px;
+            
+        }
+        
+        &:last-child {
+            width: 40px;
+            transform: rotate(52deg);
+            filter: grayscale(52%);
+           
+            position: absolute;
+            right: 60px;
+            top: 150px;
+    
+        }
+    }
+}
+
+.gallary .heading h3 {
+    font-size: 48px;
+    font-weight: 600;
+    font-family: "altero", sans-serif;
+    text-transform: uppercase;    
+    position: relative;
+    display: inline-block;
+}
+.gallary .heading h3::after {
+    position: absolute;
+    content: '';
+    left: 22%;
+    top: 100%;
+    width: 50%;
+    background-color: #78CE33;
+    height: 5px;
+    transition: all linear .3s;
+}
+
+
+
+
+.gallary .view-more button {
+    background-color: #668600;
+    padding: 15px 45px;
+    border-radius: 30px;
+    color: #fff;
+}
